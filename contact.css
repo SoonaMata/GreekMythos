@@ -34,7 +34,10 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-image: linear-gradient(red,  yellow);
+  
+
+  /* background-color: #333; */
 }
 ul.topnav li {float: left;}
 ul.topnav li a {

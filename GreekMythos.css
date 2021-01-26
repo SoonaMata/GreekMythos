@@ -1,5 +1,11 @@
 body {
-    background-color: #353b48;
+   
+    background-image: url("Nightview-Parthenon-Athens.jpg");
+    background-color: #353b48; /* In case img unavalaible */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
     color: #dcdde1;
     text-align: center;
     font-size: 15px;
@@ -22,6 +28,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-image: linear-gradient(red,  yellow);
   background-color: #333;
 }
 ul.topnav li {float: left;}
@@ -39,12 +46,7 @@ ul.topnav li a.active {background-color:turquoise;}
   ul.topnav li {float: none;}
 }
 
-footer {
-  border: 2px solid chocolate;
-  color: aliceblue;
-width: 100%;
-bottom: 0%;
-}
+
 
 .fa {
   padding: 20px;
@@ -105,7 +107,7 @@ footer a:link {
   display: inline-block;
 }
 /* visited link */
-a:visited {
+ a:visited {
   /* color: rgb(225, 240, 11); */
   color: aliceblue;
 }
@@ -114,7 +116,7 @@ footer a:hover {
   color: hotpink;
   border-color: hotpink;
 }
-/* selected link */
+/* selected link (page youre on) */
 a:active {
   color: rgb(17, 244, 252);
 }
