@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Orbitron|Poiret+One&display=swap');
+/* specify in CSS : font-family: 'Gayathri', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poiret One', cursive; */
+
+/* had to make it an id instead of footer element otherwise wouldnt work */
+#footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center; 
+font-family: 'Poiret One', cursive;
+    font-size: 25px;
+}
+
+div {
+    width: 70%;
+    display: -ms-flexbox;
+    display: flex;
+    /* TO KEEP SPACE B/W THE ICONS: */
+    justify-content: space-between;
+}
+div img{
+    width: 100px;
+    height: 80px;
+}
+
+/* from my other pages: */
+/* <!-- nav bar --> */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 7px;
+  text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a.active {background-color:turquoise;}
+/* need this so my nav looks good w mobile */
+@media screen and (max-width: 600px) {
+  ul.topnav li {float: none;}
+}
+
+
+body {
+    background-color: #353b48;
+    color:turquoise;
+  }
+
+/*The below is for link colouring */ 
+/* unvisited link */
+ a:link {
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  color:turquoise;
+}
+/* visited link */
+a:visited {
+  /* color: rgb(225, 240, 11); */
+  color: aliceblue;
+}
+/* mouse over link */
+ a:hover {
+  color: hotpink;
+}
+/* selected link */
+a:active {
+  color: rgb(17, 244, 252);
+}
