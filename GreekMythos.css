@@ -115,7 +115,7 @@ figure {
 /* unvisited link */
 footer a:link {
   /* color: chartreuse; */
-  border: 2px solid chartreuse;
+  border: 2px solid chartreuse;      /*visisble in safari*/
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
