@@ -1,7 +1,11 @@
+/* Added the folowing so my background image covers all the window */
+html {
+  height: 100%;
+}
 body {
    
     background-image: url("Nightview-Parthenon-Athens.jpg");
-    background-color: #353b48; /* In case img unavalaible */
+    background-color:turquoise; /* In case img unavalaible */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -22,13 +26,23 @@ img {
   height: auto;
 }
 
+.transbox {
+  margin: 30px;
+  background-color: rgba(139, 0, 139, .5);   
+  border: 1px solid rgb(253, 2, 253);
+  /* opacity: 0.4; */
+  
+  color:rgb(255, 255, 255);
+} 
+
+
 /* <!-- nav bar --> */
 ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(red,  yellow);
+  background-image: linear-gradient(violet,  red);
   background-color: #333;
 }
 ul.topnav li {float: left;}
@@ -48,7 +62,7 @@ ul.topnav li a.active {background-color:turquoise;}
 
 
 
-.fa {
+ .fa {
   padding: 20px;
   font-size: 30px;
   width: 30px;
@@ -100,7 +114,7 @@ figure {
 /*The below is for link colouring */ 
 /* unvisited link */
 footer a:link {
-  color: chartreuse;
+  /* color: chartreuse; */
   border: 2px solid chartreuse;
   padding: 10px 20px;
   text-align: center;
@@ -113,8 +127,8 @@ footer a:link {
 }
 /* mouse over link */
 footer a:hover {
-  color: hotpink;
-  border-color: hotpink;
+  color: violet;
+  border-color: violet;
 }
 /* selected link (page youre on) */
 a:active {
