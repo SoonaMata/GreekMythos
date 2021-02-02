@@ -8,7 +8,7 @@ body {
     background-color:turquoise; /* In case img unavalaible */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-repeat: repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     color: #dcdde1;
     text-align: center;
@@ -22,18 +22,11 @@ text-shadow: 10px 10px 10px hotpink;
 }
 
 img {
-  width: 20%;
+  width: 40%;
   height: auto;
 }
 
-.transbox {
-  margin: 30px;
-  background-color: rgba(139, 0, 139, .5);   
-  border: 1px solid rgb(253, 2, 253);
-  /* opacity: 0.4; */
-  
-  color:rgb(255, 255, 255);
-} 
+
 
 
 /* <!-- nav bar --> */
@@ -87,9 +80,9 @@ ul.topnav li a.active {background-color:turquoise;}
 }
 
 /*The following is to help in the star border I was TRYING to create and need to work on */ 
-figure {
+/* figure {
     -webkit-border-image: url("/star.jpg") 30 ;
-}
+} */
 
 /*The following is to help in the rainbow text */ 
   .wrapper {
@@ -200,3 +193,15 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-dashoffset: 0;
   stroke: #06D6A0;
 }
+
+
+
+
+.transbox {
+  margin: 30px;
+  background-color: rgba(139, 0, 139, .5);   
+  border: 1px solid rgb(253, 2, 253);
+  /* opacity: 0.4; */
+  
+  color:rgb(255, 255, 255);
+} 
